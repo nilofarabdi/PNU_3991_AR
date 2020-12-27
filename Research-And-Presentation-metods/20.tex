@@ -1,0 +1,20 @@
+{\documentclass [10pt,a4paper]{book}
+	
+\begin{document}
+		
+\begin{flushleft}
+			
+CHAPTER TWO      \textbf{20}
+			
+\end{flushleft}
+
+
+The second part of the TCP/IP suite of standards, the IP, is charged with cor-rectly addressing and routing each of the packets created by TCP to the correct desti-nation. To do so, systems have been put in place to create a unique address or identifier for every machine that is connected to the Internet and to define a path or set of paths between any two machines. This is an amazing feat when you consider that the number of new machines connecting to the Net increased to approximately 91,000 per day in early 2001 (Internet Software Consortium at http://www.isc.org/ds/WWW-200101/ index.html). In addition to creating and maintaining links between each host computer, the Net must be capable of routing messages between the large number of separate email users who may share accounts on a single host computer. Tens of thousands of additional email addresses and changes are made daily to the estimated 391,000,0(X) that were active in March 2001 (http://www.euroniktg.com/globstats/). How does this work? Each unique address of every host machine is hierarchically numbered. You may be familiar with mnemonic Net addresses that look something like www.athabascau.ca, but to a machine connected to the Internet, these addresses are very quickly translated by a database program known as the Domain Name Server (DNS) into a series of ones and zeros, or (as they are sometimes expressed for humans) into hexadecimal numbers such as 134.1561.811. Each of these sets of numbers indicates a specific Internet domain. A domain is a set of addresses and associated Internet hums that are controlled by a single organization. At the end of each address, at the root of the hierarchical sys-tem, lies the generic, top-level domain name, such as .edu (educational institution); .coat (commercial entity); or a national domain such as .ca (Canada) or .us (United States). There is a single point or authority at which addresses are assigned and con-trolled in each top-level domain. Preceding the top-level domain in an Internet address is the second-level domain name such as athabascau, Microsoft. or UNESCO (domain names are case-insensitive). These second-level addresses are assigned a single registrar within these organizations. The address can Ix further divided to subgroups within the organization. Thus, each address has a unique identifier and destination, us ith a single source of reference where the address information is stored and searched. 
+
+
+The Domain Name System works as well as it does because no single site holds all the names and related addresses in its database. Rather, the database is distributed across the various domain registries. Each node on the tree (see Figure 2.1) represents a domain, and everything below a name is a site within its domain. Then you request a connection to a Web site, your closest DNS server sees if it has recently resolved that address and, if so, retrieves the destination address and path from its records; if it has no knowledge of the site, it furthers your request for resolution to the next highest DNS in the hierarchy. This relaying continues, until you reach a DNS that has knowl-edge of your domain, and a path is returned to your computer. This may explain the occasional return of a "4()4 error—page cannot be displayed," even from a site that you are sure is in operation—it may be that the DNS server is temporarily disabled. 
+
+
+When a user creates and posts an email message or requests a Web site, a series of queries for address locations is initiated, and a path is created for each packet of the message between the origin and the destination. The packets may be routed through many nodes and is some cases take quite circuitous routes to reach their destination. However, the switching and the transmission happen very quickly, with response times measured in thousandths of seconds. The interested reader may wish to download the
+\end{document}  
+ 
